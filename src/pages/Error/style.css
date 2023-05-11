@@ -1,0 +1,38 @@
+.err-container{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.err-container img{
+  width: auto;
+  height: 150px;
+}
+
+.err-container h1{
+  font-size: 70px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.err-container h2{
+  font-size: 40px;
+}
+
+.err{
+  display: flex;
+  gap: 50px;
+}
+
+.err-container a{
+  background-color: #A34E4E;
+  font-size: 24px;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  border-radius: 4px;
+  padding: 10px 8px;
+}

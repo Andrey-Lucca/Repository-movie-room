@@ -1,0 +1,38 @@
+.fav-movies{
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fav-movies h1{
+  margin-bottom: 10px;
+}
+
+.fav-movies span{
+  font-size: 20px;
+}
+
+.fav-movies ul{
+  width: 100%;
+}
+
+.fav-movies ul li{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.fav-movies div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fav-movies div a{
+  text-decoration: none;
+  color:rgb(26, 179, 218);
+  margin-right: 10px;
+}
